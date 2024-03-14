@@ -568,8 +568,8 @@ body #wrapper section.nextContents.show a .ttl span:nth-child(3) {
 }
 
 body #wrapper section.nextContents.show a .ttl span:nth-child(4) {
-  -webkit-animation: fontUP 2s 0.4s forwards;
-  animation: fontUP 2s 0.4s forwards;
+  -webkit-animation: fontUP 2s 0.2s forwards;
+  animation: fontUP 2s 0.2s forwards;
 }
 
 body #wrapper section.nextContents.show a .ttl span:nth-child(5) {
@@ -618,8 +618,8 @@ body #wrapper section.nextContents.show a .ttl span:nth-child(13) {
 }
 
 body #wrapper section.nextContents.show a .ttl span:nth-child(14) {
-  -webkit-animation: fontUP 2s 1.4s forwards;
-  animation: fontUP 2s 1.4s forwards;
+  -webkit-animation: fontUP 2s 1.2s forwards;
+  animation: fontUP 2s 1.2s forwards;
 }
 
 body #wrapper section.nextContents.show a .ttl span:nth-child(15) {
@@ -668,8 +668,8 @@ body #wrapper section.nextContents.show a .ttl span:nth-child(23) {
 }
 
 body #wrapper section.nextContents.show a .ttl span:nth-child(24) {
-  -webkit-animation: fontUP 2s 2.4s forwards;
-  animation: fontUP 2s 2.4s forwards;
+  -webkit-animation: fontUP 2s 2.2s forwards;
+  animation: fontUP 2s 2.2s forwards;
 }
 
 body #wrapper section.nextContents.show a .ttl span:nth-child(25) {
@@ -718,8 +718,8 @@ body #wrapper section.nextContents.show a .ttl span:nth-child(33) {
 }
 
 body #wrapper section.nextContents.show a .ttl span:nth-child(34) {
-  -webkit-animation: fontUP 2s 3.4s forwards;
-  animation: fontUP 2s 3.4s forwards;
+  -webkit-animation: fontUP 2s 3.2s forwards;
+  animation: fontUP 2s 3.2s forwards;
 }
 
 body #wrapper section.nextContents.show a .ttl span:nth-child(35) {
@@ -748,8 +748,8 @@ body #wrapper section.nextContents.show a .ttl span:nth-child(39) {
 }
 
 body #wrapper section.nextContents.show a .ttl span:nth-child(40) {
-  -webkit-animation: fontUP 2s 4s forwards;
-  animation: fontUP 2s 4s forwards;
+  -webkit-animation: fontUP 2s 2s forwards;
+  animation: fontUP 2s 2s forwards;
 }
 
 body #wrapper section.nextContents.show a .ttl span:nth-child(41) {
@@ -768,8 +768,8 @@ body #wrapper section.nextContents.show a .ttl span:nth-child(43) {
 }
 
 body #wrapper section.nextContents.show a .ttl span:nth-child(44) {
-  -webkit-animation: fontUP 2s 4.4s forwards;
-  animation: fontUP 2s 4.4s forwards;
+  -webkit-animation: fontUP 2s 4.2s forwards;
+  animation: fontUP 2s 4.2s forwards;
 }
 
 body #wrapper section.nextContents.show a .ttl span:nth-child(45) {
@@ -1424,16 +1424,16 @@ body .cage {
 
 .loadingContents .loadingMessage .messageContents .messageArea .random .jpArea .jp h4 span {
   opacity: 0;
-  -webkit-transition: 4s;
-  -o-transition: 4s;
-  transition: 4s;
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
 }
 
 .loadingContents .loadingMessage .messageContents .messageArea .random .enArea {
   opacity: 0;
-  -webkit-transition: 4s;
-  -o-transition: 4s;
-  transition: 4s;
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
   margin-top: 20px;
 }
 
@@ -1450,9 +1450,9 @@ body .cage {
 
 .loadingContents .loadingMessage .messageContents .name {
   opacity: 0;
-  -webkit-transition: 4s;
-  -o-transition: 4s;
-  transition: 4s;
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
   position: relative;
   z-index: 1;
   margin-top: 50px;
@@ -1513,9 +1513,9 @@ body .cage {
 }
 
 .loadingContents .loadingMessage .messageContents.show .messageArea .random .jpArea .jp h4:nth-child(1) span:nth-child(8) {
-  -webkit-transition-delay: 4.4s;
-  -o-transition-delay: 4.4s;
-  transition-delay: 4.4s;
+  -webkit-transition-delay: 4.2s;
+  -o-transition-delay: 4.2s;
+  transition-delay: 4.2s;
 }
 
 .loadingContents .loadingMessage .messageContents.show .messageArea .random .jpArea .jp h4:nth-child(1) span:nth-child(9) {
@@ -1633,9 +1633,9 @@ body .cage {
 }
 
 .loadingContents .loadingMessage .messageContents.show .messageArea .random .jpArea .jp h4:nth-child(1) span:nth-child(28) {
-  -webkit-transition-delay: 5.4s;
-  -o-transition-delay: 5.4s;
-  transition-delay: 5.4s;
+  -webkit-transition-delay: 5.2s;
+  -o-transition-delay: 5.2s;
+  transition-delay: 5.2s;
 }
 
 .loadingContents .loadingMessage .messageContents.show .messageArea .random .jpArea .jp h4:nth-child(1) span:nth-child(29) {
@@ -1753,9 +1753,9 @@ body .cage {
 }
 
 .loadingContents .loadingMessage .messageContents.show .messageArea .random .jpArea .jp h4:nth-child(1) span:nth-child(48) {
-  -webkit-transition-delay: 6.4s;
-  -o-transition-delay: 6.4s;
-  transition-delay: 6.4s;
+  -webkit-transition-delay: 6.2s;
+  -o-transition-delay: 6.2s;
+  transition-delay: 6.2s;
 }
 
 .loadingContents .loadingMessage .messageContents.show .messageArea .random .jpArea .jp h4:nth-child(1) span:nth-child(49) {
@@ -1813,9 +1813,9 @@ body .cage {
 }
 
 .loadingContents .loadingMessage .messageContents.show .messageArea .random .jpArea .jp h4:nth-child(2) span:nth-child(8) {
-  -webkit-transition-delay: 5.4s;
-  -o-transition-delay: 5.4s;
-  transition-delay: 5.4s;
+  -webkit-transition-delay: 5.2s;
+  -o-transition-delay: 5.2s;
+  transition-delay: 5.2s;
 }
 
 .loadingContents .loadingMessage .messageContents.show .messageArea .random .jpArea .jp h4:nth-child(2) span:nth-child(9) {
@@ -1933,9 +1933,9 @@ body .cage {
 }
 
 .loadingContents .loadingMessage .messageContents.show .messageArea .random .jpArea .jp h4:nth-child(2) span:nth-child(28) {
-  -webkit-transition-delay: 6.4s;
-  -o-transition-delay: 6.4s;
-  transition-delay: 6.4s;
+  -webkit-transition-delay: 6.2s;
+  -o-transition-delay: 6.2s;
+  transition-delay: 6.2s;
 }
 
 .loadingContents .loadingMessage .messageContents.show .messageArea .random .jpArea .jp h4:nth-child(2) span:nth-child(29) {
@@ -2053,9 +2053,9 @@ body .cage {
 }
 
 .loadingContents .loadingMessage .messageContents.show .messageArea .random .jpArea .jp h4:nth-child(2) span:nth-child(48) {
-  -webkit-transition-delay: 7.4s;
-  -o-transition-delay: 7.4s;
-  transition-delay: 7.4s;
+  -webkit-transition-delay: 7.2s;
+  -o-transition-delay: 7.2s;
+  transition-delay: 7.2s;
 }
 
 .loadingContents .loadingMessage .messageContents.show .messageArea .random .jpArea .jp h4:nth-child(2) span:nth-child(49) {
@@ -2113,9 +2113,9 @@ body .cage {
 }
 
 .loadingContents .loadingMessage .messageContents.show .messageArea .random .jpArea .jp h4:nth-child(3) span:nth-child(8) {
-  -webkit-transition-delay: 6.4s;
-  -o-transition-delay: 6.4s;
-  transition-delay: 6.4s;
+  -webkit-transition-delay: 6.2s;
+  -o-transition-delay: 6.2s;
+  transition-delay: 6.2s;
 }
 
 .loadingContents .loadingMessage .messageContents.show .messageArea .random .jpArea .jp h4:nth-child(3) span:nth-child(9) {
@@ -2233,9 +2233,9 @@ body .cage {
 }
 
 .loadingContents .loadingMessage .messageContents.show .messageArea .random .jpArea .jp h4:nth-child(3) span:nth-child(28) {
-  -webkit-transition-delay: 7.4s;
-  -o-transition-delay: 7.4s;
-  transition-delay: 7.4s;
+  -webkit-transition-delay: 7.2s;
+  -o-transition-delay: 7.2s;
+  transition-delay: 7.2s;
 }
 
 .loadingContents .loadingMessage .messageContents.show .messageArea .random .jpArea .jp h4:nth-child(3) span:nth-child(29) {
@@ -2353,9 +2353,9 @@ body .cage {
 }
 
 .loadingContents .loadingMessage .messageContents.show .messageArea .random .jpArea .jp h4:nth-child(3) span:nth-child(48) {
-  -webkit-transition-delay: 8.4s;
-  -o-transition-delay: 8.4s;
-  transition-delay: 8.4s;
+  -webkit-transition-delay: 8.2s;
+  -o-transition-delay: 8.2s;
+  transition-delay: 8.2s;
 }
 
 .loadingContents .loadingMessage .messageContents.show .messageArea .random .jpArea .jp h4:nth-child(3) span:nth-child(49) {
@@ -2767,9 +2767,9 @@ body .cage {
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(1) span:nth-child(8) {
-  -webkit-transition-delay: 0.4s;
-  -o-transition-delay: 0.4s;
-  transition-delay: 0.4s;
+  -webkit-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(1) span:nth-child(9) {
@@ -2887,9 +2887,9 @@ body .cage {
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(1) span:nth-child(28) {
-  -webkit-transition-delay: 1.4s;
-  -o-transition-delay: 1.4s;
-  transition-delay: 1.4s;
+  -webkit-transition-delay: 1.2s;
+  -o-transition-delay: 1.2s;
+  transition-delay: 1.2s;
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(1) span:nth-child(29) {
@@ -3007,9 +3007,9 @@ body .cage {
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(1) span:nth-child(48) {
-  -webkit-transition-delay: 2.4s;
-  -o-transition-delay: 2.4s;
-  transition-delay: 2.4s;
+  -webkit-transition-delay: 2.2s;
+  -o-transition-delay: 2.2s;
+  transition-delay: 2.2s;
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(1) span:nth-child(49) {
@@ -3127,9 +3127,9 @@ body .cage {
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(2) span:nth-child(18) {
-  -webkit-transition-delay: 1.4s;
-  -o-transition-delay: 1.4s;
-  transition-delay: 1.4s;
+  -webkit-transition-delay: 1.2s;
+  -o-transition-delay: 1.2s;
+  transition-delay: 1.2s;
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(2) span:nth-child(19) {
@@ -3247,9 +3247,9 @@ body .cage {
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(2) span:nth-child(38) {
-  -webkit-transition-delay: 2.4s;
-  -o-transition-delay: 2.4s;
-  transition-delay: 2.4s;
+  -webkit-transition-delay: 2.2s;
+  -o-transition-delay: 2.2s;
+  transition-delay: 2.2s;
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(2) span:nth-child(39) {
@@ -3367,9 +3367,9 @@ body .cage {
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(3) span:nth-child(8) {
-  -webkit-transition-delay: 1.4s;
-  -o-transition-delay: 1.4s;
-  transition-delay: 1.4s;
+  -webkit-transition-delay: 1.2s;
+  -o-transition-delay: 1.2s;
+  transition-delay: 1.2s;
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(3) span:nth-child(9) {
@@ -3487,9 +3487,9 @@ body .cage {
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(3) span:nth-child(28) {
-  -webkit-transition-delay: 2.4s;
-  -o-transition-delay: 2.4s;
-  transition-delay: 2.4s;
+  -webkit-transition-delay: 2.2s;
+  -o-transition-delay: 2.2s;
+  transition-delay: 2.2s;
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(3) span:nth-child(29) {
@@ -3607,9 +3607,9 @@ body .cage {
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(3) span:nth-child(48) {
-  -webkit-transition-delay: 3.4s;
-  -o-transition-delay: 3.4s;
-  transition-delay: 3.4s;
+  -webkit-transition-delay: 3.2s;
+  -o-transition-delay: 3.2s;
+  transition-delay: 3.2s;
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(3) span:nth-child(49) {
@@ -3637,9 +3637,9 @@ body .cage {
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(4) span:nth-child(3) {
-  -webkit-transition-delay: 1.4s;
-  -o-transition-delay: 1.4s;
-  transition-delay: 1.4s;
+  -webkit-transition-delay: 1.2s;
+  -o-transition-delay: 1.2s;
+  transition-delay: 1.2s;
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(4) span:nth-child(4) {
@@ -3757,9 +3757,9 @@ body .cage {
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(4) span:nth-child(23) {
-  -webkit-transition-delay: 2.4s;
-  -o-transition-delay: 2.4s;
-  transition-delay: 2.4s;
+  -webkit-transition-delay: 2.2s;
+  -o-transition-delay: 2.2s;
+  transition-delay: 2.2s;
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(4) span:nth-child(24) {
@@ -3877,9 +3877,9 @@ body .cage {
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(4) span:nth-child(43) {
-  -webkit-transition-delay: 3.4s;
-  -o-transition-delay: 3.4s;
-  transition-delay: 3.4s;
+  -webkit-transition-delay: 3.2s;
+  -o-transition-delay: 3.2s;
+  transition-delay: 3.2s;
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(4) span:nth-child(44) {
@@ -4027,9 +4027,9 @@ body .cage {
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(5) span:nth-child(18) {
-  -webkit-transition-delay: 2.4s;
-  -o-transition-delay: 2.4s;
-  transition-delay: 2.4s;
+  -webkit-transition-delay: 2.2s;
+  -o-transition-delay: 2.2s;
+  transition-delay: 2.2s;
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(5) span:nth-child(19) {
@@ -4147,9 +4147,9 @@ body .cage {
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(5) span:nth-child(38) {
-  -webkit-transition-delay: 3.4s;
-  -o-transition-delay: 3.4s;
-  transition-delay: 3.4s;
+  -webkit-transition-delay: 3.2s;
+  -o-transition-delay: 3.2s;
+  transition-delay: 3.2s;
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(5) span:nth-child(39) {
@@ -4219,9 +4219,9 @@ body .cage {
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(5) span:nth-child(50) {
-  -webkit-transition-delay: 4s;
-  -o-transition-delay: 4s;
-  transition-delay: 4s;
+  -webkit-transition-delay: 2s;
+  -o-transition-delay: 2s;
+  transition-delay: 2s;
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(6) span:nth-child(1) {
@@ -4297,9 +4297,9 @@ body .cage {
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(6) span:nth-child(13) {
-  -webkit-transition-delay: 2.4s;
-  -o-transition-delay: 2.4s;
-  transition-delay: 2.4s;
+  -webkit-transition-delay: 2.2s;
+  -o-transition-delay: 2.2s;
+  transition-delay: 2.2s;
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(6) span:nth-child(14) {
@@ -4417,9 +4417,9 @@ body .cage {
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(6) span:nth-child(33) {
-  -webkit-transition-delay: 3.4s;
-  -o-transition-delay: 3.4s;
-  transition-delay: 3.4s;
+  -webkit-transition-delay: 3.2s;
+  -o-transition-delay: 3.2s;
+  transition-delay: 3.2s;
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(6) span:nth-child(34) {
@@ -4489,9 +4489,9 @@ body .cage {
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(6) span:nth-child(45) {
-  -webkit-transition-delay: 4s;
-  -o-transition-delay: 4s;
-  transition-delay: 4s;
+  -webkit-transition-delay: 2s;
+  -o-transition-delay: 2s;
+  transition-delay: 2s;
 }
 
 .slider01.show .swiper-wrapper .swiper-slide.swiper-slide-active .textHolder .jp h4:nth-child(6) span:nth-child(46) {
@@ -5071,9 +5071,9 @@ header#header.active .headerContents .companyBlock a {
 #toppage .contentsAnim .textHolder .ttlArea .ttl {
   margin-top: 36px;
   opacity: .1;
-  -webkit-transition: 4s;
-  -o-transition: 4s;
-  transition: 4s;
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
   -webkit-transition-delay: 0.5s;
   -o-transition-delay: 0.5s;
   transition-delay: 0.5s;
@@ -5089,9 +5089,9 @@ header#header.active .headerContents .companyBlock a {
 
 #toppage .contentsAnim .textHolder .textArea .jpttlArea h4 span {
   opacity: 0;
-  -webkit-transition: 4s;
-  -o-transition: 4s;
-  transition: 4s;
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
 }
 
 #toppage .contentsAnim .textHolder .textArea .jpttlArea .back {
@@ -5190,9 +5190,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #toppage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(8) {
-  -webkit-transition-delay: 0.4s;
-  -o-transition-delay: 0.4s;
-  transition-delay: 0.4s;
+  -webkit-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
 }
 
 #toppage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(9) {
@@ -5310,9 +5310,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #toppage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(28) {
-  -webkit-transition-delay: 1.4s;
-  -o-transition-delay: 1.4s;
-  transition-delay: 1.4s;
+  -webkit-transition-delay: 1.2s;
+  -o-transition-delay: 1.2s;
+  transition-delay: 1.2s;
 }
 
 #toppage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(29) {
@@ -5430,9 +5430,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #toppage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(48) {
-  -webkit-transition-delay: 2.4s;
-  -o-transition-delay: 2.4s;
-  transition-delay: 2.4s;
+  -webkit-transition-delay: 2.2s;
+  -o-transition-delay: 2.2s;
+  transition-delay: 2.2s;
 }
 
 #toppage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(49) {
@@ -5448,8 +5448,8 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #toppage .contentsAnim.show .textHolder .textArea .jpttlArea .back {
-  -webkit-animation: font-pixels 400ms alternate 4s infinite;
-  animation: font-pixels 400ms alternate 4s infinite;
+  -webkit-animation: font-pixels 400ms alternate 2s infinite;
+  animation: font-pixels 400ms alternate 2s infinite;
 }
 
 #toppage .contentsAnim.show .textHolder .textArea p {
@@ -5504,8 +5504,8 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #toppage section#kv .ttlContents .ttlHeader h2 span:nth-child(2) {
-  -webkit-animation: fontUP 2s 1.4s forwards;
-  animation: fontUP 2s 1.4s forwards;
+  -webkit-animation: fontUP 2s 1.2s forwards;
+  animation: fontUP 2s 1.2s forwards;
 }
 
 #toppage section#kv .ttlContents .ttlHeader h2 span:nth-child(3) {
@@ -5879,9 +5879,9 @@ header#header.active .headerContents .companyBlock a {
 
 #aboutPage .contentsAnim .textHolder .textArea .jpttlArea h4 span {
   opacity: 0;
-  -webkit-transition: 4s;
-  -o-transition: 4s;
-  transition: 4s;
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
 }
 
 #aboutPage .contentsAnim .textHolder .textArea .jpttlArea .back {
@@ -5970,9 +5970,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #aboutPage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(8) {
-  -webkit-transition-delay: 0.4s;
-  -o-transition-delay: 0.4s;
-  transition-delay: 0.4s;
+  -webkit-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
 }
 
 #aboutPage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(9) {
@@ -6090,9 +6090,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #aboutPage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(28) {
-  -webkit-transition-delay: 1.4s;
-  -o-transition-delay: 1.4s;
-  transition-delay: 1.4s;
+  -webkit-transition-delay: 1.2s;
+  -o-transition-delay: 1.2s;
+  transition-delay: 1.2s;
 }
 
 #aboutPage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(29) {
@@ -6210,9 +6210,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #aboutPage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(48) {
-  -webkit-transition-delay: 2.4s;
-  -o-transition-delay: 2.4s;
-  transition-delay: 2.4s;
+  -webkit-transition-delay: 2.2s;
+  -o-transition-delay: 2.2s;
+  transition-delay: 2.2s;
 }
 
 #aboutPage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(49) {
@@ -6228,8 +6228,8 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #aboutPage .contentsAnim.show .textHolder .textArea .jpttlArea .back {
-  -webkit-animation: font-pixels 400ms alternate 4s infinite;
-  animation: font-pixels 400ms alternate 4s infinite;
+  -webkit-animation: font-pixels 400ms alternate 2s infinite;
+  animation: font-pixels 400ms alternate 2s infinite;
 }
 
 #aboutPage .contentsAnim.show .textHolder .textArea p {
@@ -6291,8 +6291,8 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #aboutPage section#kv .ttlContents .ttlHeader h2 span:nth-child(4) {
-  -webkit-animation: fontUP 2s 1.4s forwards;
-  animation: fontUP 2s 1.4s forwards;
+  -webkit-animation: fontUP 2s 1.2s forwards;
+  animation: fontUP 2s 1.2s forwards;
 }
 
 #aboutPage section#kv .ttlContents .ttlHeader h2 span:nth-child(5) {
@@ -6341,8 +6341,8 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #aboutPage section#kv .ttlContents .ttlHeader h2 span:nth-child(14) {
-  -webkit-animation: fontUP 2s 2.4s forwards;
-  animation: fontUP 2s 2.4s forwards;
+  -webkit-animation: fontUP 2s 2.2s forwards;
+  animation: fontUP 2s 2.2s forwards;
 }
 
 #aboutPage section#kv .ttlContents .ttlHeader h2 span:nth-child(15) {
@@ -6520,9 +6520,9 @@ header#header.active .headerContents .companyBlock a {
   width: 100%;
   height: 100%;
   position: absolute;
-  -webkit-transition: 4s;
-  -o-transition: 4s;
-  transition: 4s;
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
   -webkit-transition-delay: 1s;
   -o-transition-delay: 1s;
   transition-delay: 1s;
@@ -6671,9 +6671,9 @@ header#header.active .headerContents .companyBlock a {
 
 #dojoPage .contentsAnim .textHolder .textArea .jpttlArea h4 span {
   opacity: 0;
-  -webkit-transition: 4s;
-  -o-transition: 4s;
-  transition: 4s;
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
 }
 
 #dojoPage .contentsAnim .textHolder .textArea .jpttlArea .back {
@@ -6762,9 +6762,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #dojoPage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(8) {
-  -webkit-transition-delay: 0.4s;
-  -o-transition-delay: 0.4s;
-  transition-delay: 0.4s;
+  -webkit-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
 }
 
 #dojoPage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(9) {
@@ -6882,9 +6882,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #dojoPage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(28) {
-  -webkit-transition-delay: 1.4s;
-  -o-transition-delay: 1.4s;
-  transition-delay: 1.4s;
+  -webkit-transition-delay: 1.2s;
+  -o-transition-delay: 1.2s;
+  transition-delay: 1.2s;
 }
 
 #dojoPage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(29) {
@@ -7002,9 +7002,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #dojoPage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(48) {
-  -webkit-transition-delay: 2.4s;
-  -o-transition-delay: 2.4s;
-  transition-delay: 2.4s;
+  -webkit-transition-delay: 2.2s;
+  -o-transition-delay: 2.2s;
+  transition-delay: 2.2s;
 }
 
 #dojoPage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(49) {
@@ -7020,8 +7020,8 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #dojoPage .contentsAnim.show .textHolder .textArea .jpttlArea .back {
-  -webkit-animation: font-pixels 400ms alternate 4s infinite;
-  animation: font-pixels 400ms alternate 4s infinite;
+  -webkit-animation: font-pixels 400ms alternate 2s infinite;
+  animation: font-pixels 400ms alternate 2s infinite;
 }
 
 #dojoPage .contentsAnim.show .textHolder .textArea p {
@@ -7083,8 +7083,8 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #dojoPage section#kv .ttlContents .ttlHeader h2 span:nth-child(4) {
-  -webkit-animation: fontUP 2s 1.4s forwards;
-  animation: fontUP 2s 1.4s forwards;
+  -webkit-animation: fontUP 2s 1.2s forwards;
+  animation: fontUP 2s 1.2s forwards;
 }
 
 #dojoPage section#kv .ttlContents .ttlHeader h2 span:nth-child(5) {
@@ -7133,8 +7133,8 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #dojoPage section#kv .ttlContents .ttlHeader h2 span:nth-child(14) {
-  -webkit-animation: fontUP 2s 2.4s forwards;
-  animation: fontUP 2s 2.4s forwards;
+  -webkit-animation: fontUP 2s 2.2s forwards;
+  animation: fontUP 2s 2.2s forwards;
 }
 
 #dojoPage section#kv .ttlContents .ttlHeader h2 span:nth-child(15) {
@@ -7466,9 +7466,9 @@ header#header.active .headerContents .companyBlock a {
 
 #kiwamibitoPage .contentsAnim .textHolder .textArea .jpttlArea h4 span {
   opacity: 0;
-  -webkit-transition: 4s;
-  -o-transition: 4s;
-  transition: 4s;
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
 }
 
 #kiwamibitoPage .contentsAnim .textHolder .textArea .jpttlArea .back {
@@ -7553,9 +7553,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #kiwamibitoPage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(8) {
-  -webkit-transition-delay: 0.4s;
-  -o-transition-delay: 0.4s;
-  transition-delay: 0.4s;
+  -webkit-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
 }
 
 #kiwamibitoPage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(9) {
@@ -7673,9 +7673,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #kiwamibitoPage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(28) {
-  -webkit-transition-delay: 1.4s;
-  -o-transition-delay: 1.4s;
-  transition-delay: 1.4s;
+  -webkit-transition-delay: 1.2s;
+  -o-transition-delay: 1.2s;
+  transition-delay: 1.2s;
 }
 
 #kiwamibitoPage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(29) {
@@ -7793,9 +7793,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #kiwamibitoPage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(48) {
-  -webkit-transition-delay: 2.4s;
-  -o-transition-delay: 2.4s;
-  transition-delay: 2.4s;
+  -webkit-transition-delay: 2.2s;
+  -o-transition-delay: 2.2s;
+  transition-delay: 2.2s;
 }
 
 #kiwamibitoPage .contentsAnim.show .textHolder .textArea .jpttlArea h4 span:nth-child(49) {
@@ -7811,8 +7811,8 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #kiwamibitoPage .contentsAnim.show .textHolder .textArea .jpttlArea .back {
-  -webkit-animation: font-pixels 400ms alternate 4s infinite;
-  animation: font-pixels 400ms alternate 4s infinite;
+  -webkit-animation: font-pixels 400ms alternate 2s infinite;
+  animation: font-pixels 400ms alternate 2s infinite;
 }
 
 #kiwamibitoPage .contentsAnim.show .textHolder .textArea p {
@@ -7874,8 +7874,8 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #kiwamibitoPage section#kv .ttlContents .ttlHeader h2 span:nth-child(4) {
-  -webkit-animation: fontUP 2s 1.4s forwards;
-  animation: fontUP 2s 1.4s forwards;
+  -webkit-animation: fontUP 2s 1.2s forwards;
+  animation: fontUP 2s 1.2s forwards;
 }
 
 #kiwamibitoPage section#kv .ttlContents .ttlHeader h2 span:nth-child(5) {
@@ -7924,8 +7924,8 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #kiwamibitoPage section#kv .ttlContents .ttlHeader h2 span:nth-child(14) {
-  -webkit-animation: fontUP 2s 2.4s forwards;
-  animation: fontUP 2s 2.4s forwards;
+  -webkit-animation: fontUP 2s 2.2s forwards;
+  animation: fontUP 2s 2.2s forwards;
 }
 
 #kiwamibitoPage section#kv .ttlContents .ttlHeader h2 span:nth-child(6) {
@@ -8216,9 +8216,9 @@ header#header.active .headerContents .companyBlock a {
 
 #kiwamibitoDetails section#mainCopy .Holder h4 span {
   opacity: 0;
-  -webkit-transition: 4s;
-  -o-transition: 4s;
-  transition: 4s;
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
 }
 
 #kiwamibitoDetails section#mainCopy .Holder p {
@@ -8276,9 +8276,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(8) {
-  -webkit-transition-delay: 0.24s;
-  -o-transition-delay: 0.24s;
-  transition-delay: 0.24s;
+  -webkit-transition-delay: 0.22s;
+  -o-transition-delay: 0.22s;
+  transition-delay: 0.22s;
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(9) {
@@ -8336,9 +8336,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(18) {
-  -webkit-transition-delay: 0.54s;
-  -o-transition-delay: 0.54s;
-  transition-delay: 0.54s;
+  -webkit-transition-delay: 0.52s;
+  -o-transition-delay: 0.52s;
+  transition-delay: 0.52s;
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(19) {
@@ -8396,9 +8396,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(28) {
-  -webkit-transition-delay: 0.84s;
-  -o-transition-delay: 0.84s;
-  transition-delay: 0.84s;
+  -webkit-transition-delay: 0.82s;
+  -o-transition-delay: 0.82s;
+  transition-delay: 0.82s;
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(29) {
@@ -8456,9 +8456,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(38) {
-  -webkit-transition-delay: 1.14s;
-  -o-transition-delay: 1.14s;
-  transition-delay: 1.14s;
+  -webkit-transition-delay: 1.12s;
+  -o-transition-delay: 1.12s;
+  transition-delay: 1.12s;
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(39) {
@@ -8516,9 +8516,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(48) {
-  -webkit-transition-delay: 1.44s;
-  -o-transition-delay: 1.44s;
-  transition-delay: 1.44s;
+  -webkit-transition-delay: 1.42s;
+  -o-transition-delay: 1.42s;
+  transition-delay: 1.42s;
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(49) {
@@ -8576,9 +8576,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(58) {
-  -webkit-transition-delay: 1.74s;
-  -o-transition-delay: 1.74s;
-  transition-delay: 1.74s;
+  -webkit-transition-delay: 1.72s;
+  -o-transition-delay: 1.72s;
+  transition-delay: 1.72s;
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(59) {
@@ -8636,9 +8636,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(68) {
-  -webkit-transition-delay: 2.04s;
-  -o-transition-delay: 2.04s;
-  transition-delay: 2.04s;
+  -webkit-transition-delay: 2.02s;
+  -o-transition-delay: 2.02s;
+  transition-delay: 2.02s;
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(69) {
@@ -8696,9 +8696,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(78) {
-  -webkit-transition-delay: 2.34s;
-  -o-transition-delay: 2.34s;
-  transition-delay: 2.34s;
+  -webkit-transition-delay: 2.32s;
+  -o-transition-delay: 2.32s;
+  transition-delay: 2.32s;
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(79) {
@@ -8708,9 +8708,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(80) {
-  -webkit-transition-delay: 2.4s;
-  -o-transition-delay: 2.4s;
-  transition-delay: 2.4s;
+  -webkit-transition-delay: 2.2s;
+  -o-transition-delay: 2.2s;
+  transition-delay: 2.2s;
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(81) {
@@ -8756,9 +8756,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(88) {
-  -webkit-transition-delay: 2.64s;
-  -o-transition-delay: 2.64s;
-  transition-delay: 2.64s;
+  -webkit-transition-delay: 2.62s;
+  -o-transition-delay: 2.62s;
+  transition-delay: 2.62s;
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(89) {
@@ -8816,9 +8816,9 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(98) {
-  -webkit-transition-delay: 2.94s;
-  -o-transition-delay: 2.94s;
-  transition-delay: 2.94s;
+  -webkit-transition-delay: 2.92s;
+  -o-transition-delay: 2.92s;
+  transition-delay: 2.92s;
 }
 
 #kiwamibitoDetails section#mainCopy .Holder.show h4 span:nth-child(99) {
@@ -9001,8 +9001,8 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #staffPage section#kv .ttlContents .ttlHeader h2 span:nth-child(4) {
-  -webkit-animation: fontUP 2s 1.4s forwards;
-  animation: fontUP 2s 1.4s forwards;
+  -webkit-animation: fontUP 2s 1.2s forwards;
+  animation: fontUP 2s 1.2s forwards;
 }
 
 #staffPage section#kv .ttlContents .ttlHeader h2 span:nth-child(5) {
@@ -9160,8 +9160,8 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #infoGoodsPage section#kv .ttlContents .ttlHeader h2 span:nth-child(4) {
-  -webkit-animation: fontUP 2s 1.4s forwards;
-  animation: fontUP 2s 1.4s forwards;
+  -webkit-animation: fontUP 2s 1.2s forwards;
+  animation: fontUP 2s 1.2s forwards;
 }
 
 #infoGoodsPage section#kv .ttlContents .ttlHeader h2 span:nth-child(5) {
@@ -9210,8 +9210,8 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #infoGoodsPage section#kv .ttlContents .ttlHeader h2 span:nth-child(14) {
-  -webkit-animation: fontUP 2s 2.4s forwards;
-  animation: fontUP 2s 2.4s forwards;
+  -webkit-animation: fontUP 2s 2.2s forwards;
+  animation: fontUP 2s 2.2s forwards;
 }
 
 #infoGoodsPage section#kv .ttlContents .ttlHeader h2 span:nth-child(15) {
@@ -9566,8 +9566,8 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #contactPage section#kv .ttlContents .ttlHeader h2 span:nth-child(4) {
-  -webkit-animation: fontUP 2s 1.4s forwards;
-  animation: fontUP 2s 1.4s forwards;
+  -webkit-animation: fontUP 2s 1.2s forwards;
+  animation: fontUP 2s 1.2s forwards;
 }
 
 #contactPage section#kv .ttlContents .ttlHeader h2 span:nth-child(5) {
@@ -10914,7 +10914,7 @@ footer .cw {
   }
 
   body#toppage .contentsAnim .textHolder .textArea .imgHolder {
-    margin-top: 80px;
+    margin-top: -100px;
   }
 
   body#toppage section#kv .ttlContents .ttlHeader h2 {
