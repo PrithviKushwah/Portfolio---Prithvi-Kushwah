@@ -5613,7 +5613,7 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #toppage section#prologue .Holder:nth-child(1) .imgHolder:after {
-  padding-top: 133%;
+  padding-top: 0%;
 }
 
 #toppage section#prologue .Holder:nth-child(2) {
@@ -7257,7 +7257,7 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #dojoPage section#dojo03 .Holder:nth-child(1) .imgHolder:after {
-  padding-top: 133%;
+  padding-top: 0%;
 }
 
 #dojoPage section#dojo03 .Holder:nth-child(3) {
