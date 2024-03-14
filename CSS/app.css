@@ -808,10 +808,10 @@ body #wrapper section.nextContents.show a .subttl {
 }
 
 body #wrapper section.backBG {
-  background: -webkit-gradient(linear, left top, left bottom, from(#344754), to(#D4CFC9));
-  background: -webkit-linear-gradient(#344754, #D4CFC9);
-  background: -o-linear-gradient(#344754, #D4CFC9);
-  background: linear-gradient(#344754, #D4CFC9);
+  background: -webkit-gradient(linear, left top, left bottom, from(#4b0082), to(#000000), color-stop(50%, #000000), color-stop(50%, #4b0082));
+  background: -webkit-linear-gradient(#4b0082, #000000);
+  background: -o-linear-gradient(#4b0082, #000000);
+  background: linear-gradient(#4b0082, #000000);
   position: fixed;
   top: 0;
   z-index: 0;
@@ -819,6 +819,11 @@ body #wrapper section.backBG {
   height: 110%;
   -webkit-transform: translateZ(0);
 }
+
+
+
+
+
 
 body #wrapper section.noise {
   position: fixed;
