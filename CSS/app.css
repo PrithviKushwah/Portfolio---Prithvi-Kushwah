@@ -743,7 +743,7 @@ body #wrapper section.nextContents.show a .subttl {
   animation: fontSpacing 3s 1.5s forwards;
 }
 
-body #wrapper section.backBG {
+/* body #wrapper section.backBG {
   background: -webkit-gradient(linear, left top, left bottom, from(#4b0082), to(#000000), color-stop(50%, #000000), color-stop(50%, #4b0082));
   background: -webkit-linear-gradient(#4b0082, #000000);
   background: -o-linear-gradient(#4b0082, #000000);
@@ -754,7 +754,7 @@ body #wrapper section.backBG {
   width: 100vw;
   height: 110%;
   -webkit-transform: translateZ(0);
-}
+} */
 
 
 
@@ -12945,3 +12945,57 @@ footer .cw {
 }
 
 
+
+.photo-wrapper {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.photo {
+  border-radius: 16px;
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+  position: relative;
+  flex-shrink: 0;
+  transition: transform 0.25s ease;
+
+  & img {
+      width: inherit;
+      height: inherit;
+      object-fit: cover;
+  }
+
+  &::after {
+      content: "";
+      position: absolute;
+      top: -1rem;
+      bottom: -1rem;
+      left: -16rem;
+      background: linear-gradient(90deg, transparent, white, transparent);
+      width: 16rem;
+      opacity: 0;
+      transform: rotate(6deg);
+  }
+
+  &:hover::after {
+      left: 100%;
+      opacity: 0.15;
+      transition: inset 1s;
+  }
+
+  &:hover {
+      transform: scale(1.1) !important;
+  }
+
+  &.even {
+      transform: rotate(2deg);
+  }
+
+  &:not(.even) {
+      transform: rotate(-2deg);
+  }
+}
