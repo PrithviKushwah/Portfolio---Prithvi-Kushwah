@@ -2389,8 +2389,8 @@ body .cage {
 @media (hover: hover) and (pointer: fine) {
   .cursor {
     z-index: 1000;
-    width: 15px;
-    height: 15px;
+    width: 30px;
+    height: 30px;
     margin-top: -50%;
     margin-left: -50%;
     border-radius: 50%;
@@ -2405,8 +2405,8 @@ body .cage {
   }
 
   .cursor.active {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     -webkit-transition: .2s;
     -o-transition: .2s;
     transition: .2s;
