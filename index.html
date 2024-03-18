@@ -569,181 +569,118 @@
                 </div>
             </div>
 
-            <div class="options">
-                <div class="option active" style="--optionBackground:url(./assests/cloud1.jpeg);">
-
-
-                </div>
-                <div class="option" style="--optionBackground:url(./assests/cloud2.jpeg);">
-
-
-                </div>
-                <div class="option" style="--optionBackground:url(./assests/cloud3.jpeg);">
-
-
-                </div>
-                <div class="option" style="--optionBackground:url(./assests/cloud4.jpeg);">
-
-
-                </div>
-                <div class="option" style="--optionBackground:url(./assests/cloud5.jpeg);">
-
-
-                </div>
-            </div>
             <style>
-                .credit {
-                    position: absolute;
-                    bottom: 20px;
-                    left: 20px;
-                    color: inherit;
-                }
+                @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 
-                .options {
+                .container {
+                    width: 100%;
                     display: flex;
-                    flex-direction: row;
-                    align-items: stretch;
-                    overflow: hidden;
-                    min-width: 600px;
-                    max-width: 900px;
-                    width: calc(100% - 100px);
-                    height: 400px;
+                    justify-content: center;
+                    height: 500px;
+                    gap: 10px;
                 }
 
-                .options .option {
-                    position: relative;
-                    overflow: hidden;
-                    min-width: 60px;
-                    margin: 10px;
-                    background: var(--optionBackground, var(--defaultBackground, #E6E9ED));
-                    background-size: auto 120%;
-                    background-position: center;
+                .container>div {
+                    flex: 0 0 120px;
+                    border-radius: 0.5rem;
+                    transition: 0.5s ease-in-out;
                     cursor: pointer;
-                    transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
-                }
-
-                .options .option.active {
-                    flex-grow: 10000;
-                    transform: scale(1);
-                    max-width: 600px;
-                    margin: 0px;
-                    border-radius: 40px;
-                    background-size: auto 100%;
-                }
-
-                .options .option.active .shadow {
-                    box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black;
-                }
-
-                .options .option.active .label {
-                    bottom: 20px;
-                    left: 20px;
-                }
-
-                .options .option.active .label .info>div {
-                    left: 0px;
-                    opacity: 1;
-                }
-
-                .options .option:not(.active) {
-                    flex-grow: 1;
-                    border-radius: 30px;
-                }
-
-                .options .option:not(.active) .shadow {
-                    bottom: -40px;
-                    box-shadow: inset 0 -120px 0px -120px black, inset 0 -120px 0px -100px black;
-                }
-
-                .options .option:not(.active) .label {
-                    bottom: 10px;
-                    left: 10px;
-                }
-
-                .options .option:not(.active) .label .info>div {
-                    left: 20px;
-                    opacity: 0;
-                }
-
-                .options .option .shadow {
-                    position: absolute;
-                    bottom: 0px;
-                    left: 0px;
-                    right: 0px;
-                    height: 120px;
-                    transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
-                }
-
-                .options .option .label {
-                    display: flex;
-                    position: absolute;
-                    right: 0px;
-                    height: 40px;
-                    transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
-                }
-
-                .options .option .label .icon {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: center;
-                    align-items: center;
-                    min-width: 40px;
-                    max-width: 40px;
-                    height: 40px;
-                    border-radius: 100%;
-                    background-color: white;
-                    color: var(--defaultBackground);
-                }
-
-                .options .option .label .info {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    margin-left: 10px;
-                    color: white;
-                    white-space: pre;
-                }
-
-                .options .option .label .info>div {
+                    box-shadow: 1px 5px 15px #1e0e3e;
                     position: relative;
-                    transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity .5s ease-out;
+                    overflow: hidden;
                 }
 
-                .options .option .label .info .main {
-                    font-weight: bold;
+                .container>div:nth-of-type(1) {
+                    background: url("./assests/cloud1.jpeg") no-repeat 50% / cover;
+                }
+
+                .container>div:nth-of-type(2) {
+                    background: url("./assests/cloud2.jpeg") no-repeat 50% / cover;
+                }
+
+                .container>div:nth-of-type(3) {
+                    background: url("./assests/cloud3.jpeg") no-repeat 50% / cover;
+                }
+
+                .container>div:nth-of-type(4) {
+                    background: url("/assests/cloud4.jpeg") no-repeat 50% / cover;
+                }
+                .container>div:nth-of-type(5) {
+                    background: url("./assests/cloud5.jpeg") no-repeat 50% / cover;
+                }
+
+                .container>div .content {
+                    font-size: 1.5rem;
+                    color: #fff;
+                    display: flex;
+                    align-items: center;
+                    padding: 15px;
+                    opacity: 0;
+                    flex-direction: column;
+                    height: 100%;
+                    justify-content: flex-end;
+                    background: #02022e;
+                    background: linear-gradient(0deg, rgba(2, 2, 46, 0.6755077030812324) 0%, rgba(255, 255, 255, 0) 100%);
+                    transform: translatey(100%);
+                    transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+                    visibility: hidden;
+                }
+
+                .container>div .content span {
+                    display: block;
+                    margin-top: 5px;
                     font-size: 1.2rem;
                 }
 
-                .options .option .label .info .sub {
-                    transition-delay: .1s;
+                .container>div:hover {
+                    flex: 0 0 250px;
+                    box-shadow: 1px 3px 15px #7645d8;
+                    transform: translatey(-30px);
                 }
 
-                @media screen and (max-width:798px) {
-                    .options {
-                        min-width: 520px;
-                    }
+                .container>div:hover .content {
+                    opacity: 1;
+                    transform: translatey(0%);
+                    visibility: visible;
+
                 }
 
-                @media screen and (max-width:718px) {
-                    .options {
-                        min-width: 440px;
-                    }
-                }
-
-                @media screen and (max-width:638px) {
-                    .options {
-                        min-width: 360px;
-                    }
-                }
-
-                @media screen and (max-width:558px) {
-                    .options {
-                        min-width: 280px;
+                @media only screen and (max-width: 767px) {
+                    .container {
+                        overflow: scroll;
+                        justify-content: flex-start;
                     }
                 }
             </style>
 
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <div class="container">
+                <div>
+                    <div class="content">
+                      
+                    </div>
+                </div>
+                <div>
+                    <div class="content">
+                       
+                    </div>
+                </div>
+                <div>
+                    <div class="content">
+                       
+                    </div>
+                </div>
+                <div>
+                    <div class="content">
+                        
+                    </div>
+                </div>
+                <div>
+                    <div class="content">
+                       
+                    </div>
+                </div>
+            </div>
+            <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
             <script>
                 $(document).ready(function () {
                     $(".option").click(function () {
@@ -751,7 +688,7 @@
                         $(this).addClass("active");
                     });
                 });
-            </script>
+            </script> -->
 
 
             <section id="sayings" class="deviceMaxWidth">
