@@ -529,17 +529,21 @@
                 </div>
                 <div class="textHolder" id="container">
                     <div class="ttlArea">
-                        <div class="sub"><span></span><span class="textEN" style="font-size: larger;">STUDENT PLACEMENT CORDINATOR</span>
+                        <div class="sub"><span></span><span class="textEN" style="font-size: larger;">STUDENT PLACEMENT
+                                CORDINATOR</span>
                         </div>
                         <div class="ttl" id="pic">
-                            <span class="ttlEN">"As a Student Placement Coordinator, I share vital information and address student doubts about companies, ensuring they make informed decisions for their placements."</span>
+                            <span class="ttlEN">"As a Student Placement Coordinator, I share vital information and
+                                address student doubts about companies, ensuring they make informed decisions for their
+                                placements."</span>
                         </div>
                     </div>
                     <div class="textArea">
-                        
+
                         <div class="sp imgHolder btnNone slideUp01">
                             <div class="card 1" style="background-color: white;">
-                                <div class="card_image"> <img style="object-fit: contain;" src="./assests/svvv.jpg" /> </div>
+                                <div class="card_image"> <img style="object-fit: contain;" src="./assests/svvv.jpg" />
+                                </div>
 
                             </div>
                         </div>
@@ -549,64 +553,222 @@
             </div>
         </section>
         <!-- Cloud1 -->
-        <section>
+        <section style="text-align: -webkit-center;">
             <div class="ttlArea" style="position: relative; padding: 10%;">
 
                 <div class="ttl" id="pic">
                     <span class="ttlEN">INTERSHIP AT CLOUD1 WEB SOLUTIONS</span>
                 </div>
-                <div class="sub"><span></span><span class="textEN" style="font-size: larger;"><br><br>
+                <div class="sub" style="text-align: justify;"><span></span><span class="textEN"
+                        style="font-size: larger;"><br><br>
                         Responsibilities: Developed features, debugged, and collaborated on project planning.<br><br>
                         Technologies Used: Laravel, Livewire, ReactJS, Node.js, MySQL<br><br>
                         Projects: Society Management System (1000+ users), Employee Management System, CV-max<br><br>
-                        <br><br>
+
                         Learnings: Proficiency in Laravel, ReactJS; enhanced problem-solving and teamwork skills.</span>
                 </div>
             </div>
-            <!-- <div style="text-align-last: center;">
-            <img style="    max-width: min-content;
-            position: relative;" src="./assests/cloud1Logo.png" alt="">
-        </div> -->
 
-            <div class="photo-wrapper" id="photoWrapper">
+            <div class="options">
+                <div class="option active" style="--optionBackground:url(./assests/cloud1.jpeg);">
 
-                <div class="photo">
-                    <img src="./assests/cloud1.jpeg">
+
                 </div>
-                <div class="photo">
-                    <img src="./assests/cloud2.jpeg">
+                <div class="option" style="--optionBackground:url(./assests/cloud2.jpeg);">
+
+
                 </div>
-                <div class="photo">
-                    <img style="height: fit-content;" src="./assests/cloud3.jpeg">
+                <div class="option" style="--optionBackground:url(./assests/cloud3.jpeg);">
+
+
                 </div>
-                <div class="photo">
-                    <img src="./assests/cloud4.jpeg">
+                <div class="option" style="--optionBackground:url(./assests/cloud4.jpeg);">
+
+
                 </div>
-                <div class="photo">
-                    <img src="./assests/cloud5.jpeg">
+                <div class="option" style="--optionBackground:url(./assests/cloud5.jpeg);">
+
+
                 </div>
             </div>
-        </section>
-        <script src="./scripts/carousel.js"></script>
+            <style>
+                .credit {
+                    position: absolute;
+                    bottom: 20px;
+                    left: 20px;
+                    color: inherit;
+                }
+
+                .options {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: stretch;
+                    overflow: hidden;
+                    min-width: 600px;
+                    max-width: 900px;
+                    width: calc(100% - 100px);
+                    height: 400px;
+                }
+
+                .options .option {
+                    position: relative;
+                    overflow: hidden;
+                    min-width: 60px;
+                    margin: 10px;
+                    background: var(--optionBackground, var(--defaultBackground, #E6E9ED));
+                    background-size: auto 120%;
+                    background-position: center;
+                    cursor: pointer;
+                    transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+                }
+
+                .options .option.active {
+                    flex-grow: 10000;
+                    transform: scale(1);
+                    max-width: 600px;
+                    margin: 0px;
+                    border-radius: 40px;
+                    background-size: auto 100%;
+                }
+
+                .options .option.active .shadow {
+                    box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black;
+                }
+
+                .options .option.active .label {
+                    bottom: 20px;
+                    left: 20px;
+                }
+
+                .options .option.active .label .info>div {
+                    left: 0px;
+                    opacity: 1;
+                }
+
+                .options .option:not(.active) {
+                    flex-grow: 1;
+                    border-radius: 30px;
+                }
+
+                .options .option:not(.active) .shadow {
+                    bottom: -40px;
+                    box-shadow: inset 0 -120px 0px -120px black, inset 0 -120px 0px -100px black;
+                }
+
+                .options .option:not(.active) .label {
+                    bottom: 10px;
+                    left: 10px;
+                }
+
+                .options .option:not(.active) .label .info>div {
+                    left: 20px;
+                    opacity: 0;
+                }
+
+                .options .option .shadow {
+                    position: absolute;
+                    bottom: 0px;
+                    left: 0px;
+                    right: 0px;
+                    height: 120px;
+                    transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+                }
+
+                .options .option .label {
+                    display: flex;
+                    position: absolute;
+                    right: 0px;
+                    height: 40px;
+                    transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+                }
+
+                .options .option .label .icon {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    min-width: 40px;
+                    max-width: 40px;
+                    height: 40px;
+                    border-radius: 100%;
+                    background-color: white;
+                    color: var(--defaultBackground);
+                }
+
+                .options .option .label .info {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-left: 10px;
+                    color: white;
+                    white-space: pre;
+                }
+
+                .options .option .label .info>div {
+                    position: relative;
+                    transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity .5s ease-out;
+                }
+
+                .options .option .label .info .main {
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                }
+
+                .options .option .label .info .sub {
+                    transition-delay: .1s;
+                }
+
+                @media screen and (max-width:798px) {
+                    .options {
+                        min-width: 520px;
+                    }
+                }
+
+                @media screen and (max-width:718px) {
+                    .options {
+                        min-width: 440px;
+                    }
+                }
+
+                @media screen and (max-width:638px) {
+                    .options {
+                        min-width: 360px;
+                    }
+                }
+
+                @media screen and (max-width:558px) {
+                    .options {
+                        min-width: 280px;
+                    }
+                }
+            </style>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script>
+                $(document).ready(function () {
+                    $(".option").click(function () {
+                        $(".option").removeClass("active");
+                        $(this).addClass("active");
+                    });
+                });
+            </script>
 
 
+            <section id="sayings" class="deviceMaxWidth">
+                <div class="Holder cage fadein01">
+                    <div class="ttlArea">
+                        <div class="sub"><span class="textEN" style="font-size: 20px; color: white;">
+                                "Areas of Technical Expertise"</span></div>
 
+                    </div>
+                    <div class="swiper-container slider01">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="imgHolder rotate-image" style="width: 150px;"><img src="assests/react.png"
+                                        alt="Rotating Image">
 
-        <section id="sayings" class="deviceMaxWidth">
-            <div class="Holder cage fadein01">
-                <div class="ttlArea">
-                    <div class="sub"><span class="textEN" style="font-size: 20px; color: white;">
-                            "Areas of Technical Expertise"</span></div>
-
-                </div>
-                <div class="swiper-container slider01">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="imgHolder rotate-image" style="width: 150px;"><img src="assests/react.png"
-                                    alt="Rotating Image">
-
-                            </div>
-                            <!-- <div class="textHolder flexC">
+                                </div>
+                                <!-- <div class="textHolder flexC">
                                 <div class="textArea">
                                     <div class="jp ttlJP">
                                         <h4>REACT JS</h4>
@@ -615,12 +777,12 @@
                                    
                                 </div>
                             </div> -->
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="imgHolder rotate-image"><img src="./assests/html.png">
-
                             </div>
-                            <!-- <div class="textHolder flexC">
+                            <div class="swiper-slide">
+                                <div class="imgHolder rotate-image"><img src="./assests/html.png">
+
+                                </div>
+                                <!-- <div class="textHolder flexC">
                                 <div class="textArea">
                                     <div class="jp ttlJP">
                                         <h4>HTML</h4>
@@ -629,12 +791,12 @@
                                    
                                 </div>
                             </div> -->
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="imgHolder rotate-image"><img src="./assests/css.png">
-
                             </div>
-                            <!-- <div class="textHolder flexC">
+                            <div class="swiper-slide">
+                                <div class="imgHolder rotate-image"><img src="./assests/css.png">
+
+                                </div>
+                                <!-- <div class="textHolder flexC">
                                 <div class="textArea">
                                     <div class="pc jp ttlJP">
                                         <h4>CSS</h4>
@@ -647,12 +809,12 @@
                                    
                                 </div>
                             </div> -->
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="imgHolder rotate-image"><img src="./assests/js.png">
-
                             </div>
-                            <!-- <div class="textHolder flexC">
+                            <div class="swiper-slide">
+                                <div class="imgHolder rotate-image"><img src="./assests/js.png">
+
+                                </div>
+                                <!-- <div class="textHolder flexC">
                                 <div class="textArea">
                                     <div class="pc jp ttlJP">
                                         <h4>JAVASCRIPT</h4>
@@ -663,12 +825,12 @@
                                    
                                 </div>
                             </div> -->
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="imgHolder rotate-image"><img src="./assests/laravel.png">
-
                             </div>
-                            <!-- <div class="textHolder flexC">
+                            <div class="swiper-slide">
+                                <div class="imgHolder rotate-image"><img src="./assests/laravel.png">
+
+                                </div>
+                                <!-- <div class="textHolder flexC">
                                 <div class="textArea">
                                     <div class="pc jp ttlJP">
                                         <h4>LARAVEL</h4>
@@ -680,12 +842,12 @@
                                    
                                 </div>
                             </div> -->
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="imgHolder rotate-image"><img src="./assests/android.png">
-
                             </div>
-                            <!-- <div class="textHolder flexC">
+                            <div class="swiper-slide">
+                                <div class="imgHolder rotate-image"><img src="./assests/android.png">
+
+                                </div>
+                                <!-- <div class="textHolder flexC">
                                 <div class="textArea">
                                     <div class="pc jp ttlJP">
                                         <h4>ANDROID STUDIO</h4>
@@ -696,12 +858,12 @@
                                   
                                 </div>
                             </div> -->
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="imgHolder rotate-image"><img src="./assests/github.png">
-
                             </div>
-                            <!-- <div class="textHolder flexC">
+                            <div class="swiper-slide">
+                                <div class="imgHolder rotate-image"><img src="./assests/github.png">
+
+                                </div>
+                                <!-- <div class="textHolder flexC">
                                 <div class="textArea">
                                     <div class="pc jp ttlJP">
                                         <h4>GIT AND GITHUB</h4>
@@ -712,14 +874,14 @@
                                   
                                 </div>
                             </div> -->
+                            </div>
                         </div>
+
+                        <div class="swiper-button-prev btnPrev"></div>
+                        <div class="swiper-button-next btnNext"></div>
                     </div>
-
-                    <div class="swiper-button-prev btnPrev"></div>
-                    <div class="swiper-button-next btnNext"></div>
                 </div>
-            </div>
-        </section>
+            </section>
 
 
 
@@ -729,14 +891,14 @@
 
 
 
-        <!-- <section class="backBG deviseHeight"></section> -->
-        <!-- <section class="noise deviseHeight"></section> -->
+            <!-- <section class="backBG deviseHeight"></section> -->
+            <!-- <section class="noise deviseHeight"></section> -->
 
 
 
-        <footer class="flexC">
-            <div class="cw textJP">©2024-PrithviKushwah.all right reserved</div>
-        </footer>
+            <footer class="flexC">
+                <div class="cw textJP">©2024-PrithviKushwah.all right reserved</div>
+            </footer>
 
 
 
