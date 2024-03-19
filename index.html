@@ -190,8 +190,7 @@
 
 
 
-        <!-- <section class="deviceMaxWidth" id="linear"><span></span><span></span><span></span><span></span><span></span>
-        </section> -->
+       
         <div class='awesomeBG'></div>
         <style>
             .awesomeBG {
@@ -274,9 +273,27 @@
                     background-position: 120% 0
                 }
             }
+            @media only screen and (min-width: 1024px) {
+                .main_video {
+                    width: -webkit-fill-available; /* Specific for desktop screens */
+                }
+            }
+            
         </style>
 
-        <section class="deviseHeight" id="kv">
+
+        <section class="deviseHeight" id="kv" 
+        style="border-radius: 0px 0px 500px 500px / 0px 0px 100px 100px;
+        border-color: #ffffff;
+        border-width: 1px;
+        border-bottom-style: groove;">
+            <div style="filter:blur(5px);mix-blend-mode: overlay;">
+                <video class="main_video" autoplay muted loop  style="top:0;left:0;">
+                    <source src="./assests/main_video.mp4" type="video/mp4">
+                </video>
+                <div style="position:absolute;bottom:0;left:0;width:100%;height:100px;background: linear-gradient(to top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));"></div>
+
+            </div>
 
             <div class="ttlContents coder deviseHeight">
                 <div class="coder ttlHeader">
@@ -345,9 +362,7 @@
 
         </section>
 
-        <div class="h-divider" style="margin-top: 60px;">
-            <div class="shadow"></div>
-        </div>
+        
 
         <!-- nishad niphade -->
         <div class="ttl" id="pic" style="position: relative;text-align: -webkit-center; margin-top: 12%;">
@@ -449,7 +464,7 @@
                 </div>
             </div>
         </section>
-        <div class="h-divider" style="    margin-top: 60px;">
+        <div class="h-divider" style="margin-top: 60px;">
             <div class="shadow"></div>
         </div>
 
