@@ -2558,11 +2558,11 @@ body .cage {
 }
 
 .slider01 .swiper-wrapper .swiper-slide .imgHolder {
- 
+
   z-index: 1;
-  
+
   width: 150px;
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
 .slider01 .swiper-wrapper .swiper-slide .imgHolder .textHolder {
@@ -5647,7 +5647,7 @@ header#header.active .headerContents .companyBlock a {
 }
 
 #toppage section#sayings {
-  
+
   position: relative;
   z-index: 3;
   overflow: hidden;
@@ -11930,7 +11930,7 @@ footer .cw {
     line-height: 24px;
   }
 
-  
+
 
   body #wrapper section.nextContents a span {
     font-size: 14px;
@@ -12917,7 +12917,8 @@ footer .cw {
 }
 
 .coder {
-  margin-top: 0; /* Default margin */
+  margin-top: 0;
+  /* Default margin */
 }
 
 @media only screen and (min-width: 768px) {
@@ -12925,23 +12926,33 @@ footer .cw {
     margin-top: -240px;
   }
 }
+
 @keyframes pulse {
   0% {
-    transform: scale(1); /* Starting point: original scale */
-    opacity: 1; /* Starting point: fully opaque */
+    transform: scale(1);
+    /* Starting point: original scale */
+    opacity: 1;
+    /* Starting point: fully opaque */
   }
+
   50% {
-    transform: scale(1.1); /* Scaling up at 50% of animation */
-    opacity: 0.7; /* Lowering opacity at 50% of animation */
+    transform: scale(1.1);
+    /* Scaling up at 50% of animation */
+    opacity: 0.7;
+    /* Lowering opacity at 50% of animation */
   }
+
   100% {
-    transform: scale(1); /* Back to original scale */
-    opacity: 1; /* Back to fully opaque */
+    transform: scale(1);
+    /* Back to original scale */
+    opacity: 1;
+    /* Back to fully opaque */
   }
 }
 
 .rotate-image {
-  animation: pulse 2s ease-in-out infinite; /* Apply the pulse animation to elements with the .pulse-image class */
+  animation: pulse 2s ease-in-out infinite;
+  /* Apply the pulse animation to elements with the .pulse-image class */
 }
 
 
@@ -12964,46 +12975,46 @@ footer .cw {
   transition: transform 0.25s ease;
 
   & img {
-      width: inherit;
-      height: inherit;
-      object-fit: cover;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
   }
 
   &::after {
-      content: "";
-      position: absolute;
-      top: -1rem;
-      bottom: -1rem;
-      left: -16rem;
-      background: linear-gradient(90deg, transparent, white, transparent);
-      width: 16rem;
-      opacity: 0;
-      transform: rotate(6deg);
+    content: "";
+    position: absolute;
+    top: -1rem;
+    bottom: -1rem;
+    left: -16rem;
+    background: linear-gradient(90deg, transparent, white, transparent);
+    width: 16rem;
+    opacity: 0;
+    transform: rotate(6deg);
   }
 
   &:hover::after {
-      left: 100%;
-      opacity: 0.15;
-      transition: inset 1s;
+    left: 100%;
+    opacity: 0.15;
+    transition: inset 1s;
   }
 
   &:hover {
-      transform: scale(1.1) !important;
+    transform: scale(1.1) !important;
   }
 
   &.even {
-      transform: rotate(2deg);
+    transform: rotate(2deg);
   }
 
   &:not(.even) {
-      transform: rotate(-2deg);
+    transform: rotate(-2deg);
   }
 }
 
 
 .h-divider {
   margin: auto;
- 
+
   width: 80%;
   position: relative;
 }
@@ -13022,8 +13033,3 @@ footer .cw {
   border-radius: 125px/12px;
   box-shadow: 0 0 8px rgb(255, 255, 255);
 }
-
-
-
-
-
