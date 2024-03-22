@@ -9,7 +9,7 @@
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="./CSS/app.css">
     <link rel="stylesheet" href="./CSS/reset.min.css">
-    <link rel="stylesheet" href="https://mas-oyama.com/wp-content/themes/mas-oyama/assets/css/vendor/swiper.min.css">
+    <!-- <link rel="stylesheet" href="https://mas-oyama.com/wp-content/themes/mas-oyama/assets/css/vendor/swiper.min.css"> -->
 
 
 
@@ -284,11 +284,11 @@
         </style>
 
 
-        <section class="deviseHeight" id="kv" style="
+        <section class="deviseHeight containera" id="kv" style="
         border-color: #ffffff;
         
         border-bottom-style: groove;">
-            <div style="" class="video">
+            <div style="" class="section">
                 <video class="main_video" autoplay muted loop style="top:0;left:0; opacity: 0.3;" >
                     <source src="./assests/main_video.mp4" type="video/mp4">
                 </video>
@@ -304,7 +304,7 @@
 
                         <span>C</span><span>O</span><span>D</span><span>E</span><span>R</span>
                     </h2>
-                    <h3 class="ttlJP" style="text-align: -webkit-center;font-size: 17px; color: rgb(255, 255, 255);">
+                    <h3 class="ttlJP" style="text-align: -webkit-center;font-size: 20px; color: rgb(255, 255, 255);">
                         PRITHVI KUSHWAH&nbsp;&nbsp;:<br class='sp'><span style="font-weight: bolder;">
                             A SOFTWARE ENGINEER</span></h3>
                 </div>
@@ -318,7 +318,7 @@
 
 
                         <span class="textEN"></span>
-                        <p class="textJP" style="font-size: smaller; font-family:'Bangers', cursive ;">I engineer
+                        <p class="textJP" style="font-size: large; font-family:'Bangers', cursive ;">I engineer
                             solutions that exceed expectations,
                             delivering seamless
                             user experiences and driving business growth.</p>
@@ -889,6 +889,43 @@
 
 
     </div>
+
+<script>
+
+const container = document.querySelector(".containera");
+const sections = document.querySelectorAll(".section");
+const dotsContainer = document.querySelector(".dots");
+
+sections.forEach((section, i) => {
+  const dot = document.createElement("div");
+  dot.classList.add("dots__item");
+  dot.addEventListener("click", () => {
+    section.scrollIntoView({ behavior: "smooth" });
+  });
+  dotsContainer.appendChild(dot);
+});
+
+const firstDot = dotsContainer.querySelector(".dots__item");
+if (firstDot) {
+  firstDot.classList.add("dots__item--active");
+}
+
+function highlightActiveDot() {
+  const currentSection = Math.round(
+    container.scrollTop / window.innerHeight
+  );
+  const dots = dotsContainer.querySelectorAll(".dots__item");
+  dots.forEach((dot, index) => {
+    dot.classList.toggle(
+      "dots__item--active",
+      index === currentSection
+    );
+  });
+}
+
+container.addEventListener("scroll", highlightActiveDot);
+
+</script>
 
     <script type='text/javascript' src='./scripts/wp-embed.min.js' id='wp-embed-js'></script>
 </body>
