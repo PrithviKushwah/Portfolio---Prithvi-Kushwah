@@ -286,15 +286,15 @@
 
         <section class="deviseHeight" id="kv" style="
         border-color: #ffffff;
-        border-width: 1px;
+        
         border-bottom-style: groove;">
-            <div style="filter:blur(1px);mix-blend-mode: overlay;">
-                <video class="main_video" autoplay muted loop style="top:0;left:0;">
+            <div style="" class="video">
+                <video class="main_video" autoplay muted loop style="top:0;left:0; opacity: 0.3;" >
                     <source src="./assests/main_video.mp4" type="video/mp4">
                 </video>
-                <div
+                <!-- <div
                     style="position:absolute;bottom:0;left:0;width:100%;height:100px;background: linear-gradient(to top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));">
-                </div>
+                </div> -->
 
             </div>
 
@@ -304,7 +304,7 @@
 
                         <span>C</span><span>O</span><span>D</span><span>E</span><span>R</span>
                     </h2>
-                    <h3 class="ttlJP" style="text-align: -webkit-center;font-size: 15px; color: rgb(255, 255, 255);">
+                    <h3 class="ttlJP" style="text-align: -webkit-center;font-size: 17px; color: rgb(255, 255, 255);">
                         PRITHVI KUSHWAH&nbsp;&nbsp;:<br class='sp'><span style="font-weight: bolder;">
                             A SOFTWARE ENGINEER</span></h3>
                 </div>
@@ -318,7 +318,7 @@
 
 
                         <span class="textEN"></span>
-                        <p class="textJP" style="font-size: large; font-family:'Bangers', cursive ;">I engineer
+                        <p class="textJP" style="font-size: smaller; font-family:'Bangers', cursive ;">I engineer
                             solutions that exceed expectations,
                             delivering seamless
                             user experiences and driving business growth.</p>
@@ -890,8 +890,6 @@
 
     </div>
 
-
-
     <script type='text/javascript' src='./scripts/wp-embed.min.js' id='wp-embed-js'></script>
 </body>
 <script type="text/javascript" src="./scripts/jquery.js"></script>
@@ -902,4 +900,34 @@
 <script type="text/javascript" src="./scripts/cursor.js"></script>
 <script type="text/javascript" src="./scripts/app.js"></script>
 <script type="text/javascript" src="./scripts/orbit_control.js"></script>
-<script type="text/javascript" src="./scripts/three.js"></script>
+<script>
+    
+    // Get the section element by its ID
+    const section = document.getElementById("kv");
+
+    // Add event listener for scroll event on the window
+    window.addEventListener("scroll", function(event) {
+        // Get the position of the section relative to the viewport
+        const sectionRect = section.getBoundingClientRect();
+
+        // Check if the top of the section is within the viewport
+        if (sectionRect.top < window.innerHeight && sectionRect.bottom > 0) {
+            // Check if the user is scrolling down
+            if (event.deltaY > 0) {
+                // Prevent default scroll behavior
+                event.preventDefault();
+
+                // Calculate new scrollTop value by adding 100vh
+                const newScrollTop = section.scrollTop + window.innerHeight;
+
+                // Animate scrolling to the new position
+                section.scrollTo({
+                    top: newScrollTop,
+                    behavior: 'smooth' // You can adjust the scrolling behavior
+                });
+            }
+        }
+    });
+
+
+</script>
