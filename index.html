@@ -9,7 +9,7 @@
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="./CSS/app.css">
     <link rel="stylesheet" href="./CSS/reset.min.css">
-    <!-- <link rel="stylesheet" href="https://mas-oyama.com/wp-content/themes/mas-oyama/assets/css/vendor/swiper.min.css"> -->
+    <link rel="stylesheet" href="https://mas-oyama.com/wp-content/themes/mas-oyama/assets/css/vendor/swiper.min.css">
 
 
 
@@ -289,9 +289,32 @@
         
         border-bottom-style: groove;">
             <div style="" class="section">
-                <video class="main_video" autoplay muted loop style="top:0;left:0; opacity: 0.3;" >
-                    <source src="./assests/main_video.mp4" type="video/mp4">
-                </video>
+                <video id="main_video" class="main_video" autoplay muted loop
+                style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.5; transition: opacity 3s ease;">
+                <source src="./assests/main_video.mp4" type="video/mp4">
+            </video>
+            <script>
+                window.addEventListener('scroll', function () {
+                    var video = document.getElementById('main_video');
+                    var scrolled = window.scrollY;
+            
+                    // Calculate the distance scrolled relative to the viewport height
+                    var scrolledVh = scrolled / window.innerHeight;
+            
+                    // Check if the distance scrolled is greater than or equal to 100vh
+                    if (scrolledVh >= 1/2) {
+                        // If scrolled to or beyond 100vh, set opacity to 0.1
+                        video.style.opacity = 0.05;
+                    } else {
+                        // If scrolled above 100vh, set opacity to 0.5
+                        video.style.opacity = 0.3;
+                    }
+                });
+            </script>
+            
+            
+            
+
                 <!-- <div
                     style="position:absolute;bottom:0;left:0;width:100%;height:100px;background: linear-gradient(to top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));">
                 </div> -->
@@ -380,10 +403,11 @@
                     </div></a> -->
                     <div class="card 1">
                         <div class="card_image">
-                            <img src="./assests/nishad_niphade.png" onclick="window.open('https://earnest-elf-ffa0e6.netlify.app/', '_blank')" />
+                            <img src="./assests/nishad_niphade.png"
+                                onclick="window.open('https://earnest-elf-ffa0e6.netlify.app/', '_blank')" />
                         </div>
                     </div>
-                    
+
                     <style>
                         .card {
                             margin: 150px auto;
@@ -464,18 +488,19 @@
                         <div class="jpttlArea">
                             <h4 class="ttlJP" style="font-size: medium;">TECHNOLOGY USED:</h4>
                             <h4 class="ttlJP" style="color: chocolate;font-size: medium;">REACT-JS | JSX | CSS |
-                                JAVASCRIPT 
+                                JAVASCRIPT
                             </h4>
                             <div class="back ttlJP"></div>
-                            
+
                         </div>
                         <div class="sp imgHolder btnNone slideUp01">
                             <div class="card 1">
                                 <div class="card_image">
-                                    <img src="./assests/nishad_niphade.png" onclick="window.open('https://earnest-elf-ffa0e6.netlify.app/', '_blank')" />
+                                    <img src="./assests/nishad_niphade.png"
+                                        onclick="window.open('https://earnest-elf-ffa0e6.netlify.app/', '_blank')" />
                                 </div>
                             </div>
-                            
+
                         </div>
 
                     </div>
@@ -506,15 +531,16 @@
                             <div class="back ttlJP"></div>
                         </div>
                         <div class="sp imgHolder btnNone slideUp01">
-                           
+
                             <div class="card 1">
                                 <div class="card_image">
-                                    <img src="./assests/rubicon.png" onclick="window.open('https://dev.rubicontutors.com/html/#', '_blank')" />
+                                    <img src="./assests/rubicon.png"
+                                        onclick="window.open('https://dev.rubicontutors.com/html/#', '_blank')" />
                                 </div>
                             </div>
-                            
-                                
-                            
+
+
+
                         </div>
 
                     </div>
@@ -522,11 +548,12 @@
                 <div class="pc imgHolder btnNone refraction" data-rellax-speed="1">
                     <div class="card 1">
                         <div class="card_image">
-                            <img src="./assests/rubicon.png" onclick="window.open('https://dev.rubicontutors.com/html/#', '_blank')" />
+                            <img src="./assests/rubicon.png"
+                                onclick="window.open('https://dev.rubicontutors.com/html/#', '_blank')" />
                         </div>
                     </div>
-                    
-                    
+
+
                 </div>
             </div>
         </section>
@@ -890,42 +917,42 @@
 
     </div>
 
-<script>
+    <script>
 
-const container = document.querySelector(".containera");
-const sections = document.querySelectorAll(".section");
-const dotsContainer = document.querySelector(".dots");
+        const container = document.querySelector(".containera");
+        const sections = document.querySelectorAll(".section");
+        const dotsContainer = document.querySelector(".dots");
 
-sections.forEach((section, i) => {
-  const dot = document.createElement("div");
-  dot.classList.add("dots__item");
-  dot.addEventListener("click", () => {
-    section.scrollIntoView({ behavior: "smooth" });
-  });
-  dotsContainer.appendChild(dot);
-});
+        sections.forEach((section, i) => {
+            const dot = document.createElement("div");
+            dot.classList.add("dots__item");
+            dot.addEventListener("click", () => {
+                section.scrollIntoView({ behavior: "smooth" });
+            });
+            dotsContainer.appendChild(dot);
+        });
 
-const firstDot = dotsContainer.querySelector(".dots__item");
-if (firstDot) {
-  firstDot.classList.add("dots__item--active");
-}
+        const firstDot = dotsContainer.querySelector(".dots__item");
+        if (firstDot) {
+            firstDot.classList.add("dots__item--active");
+        }
 
-function highlightActiveDot() {
-  const currentSection = Math.round(
-    container.scrollTop / window.innerHeight
-  );
-  const dots = dotsContainer.querySelectorAll(".dots__item");
-  dots.forEach((dot, index) => {
-    dot.classList.toggle(
-      "dots__item--active",
-      index === currentSection
-    );
-  });
-}
+        function highlightActiveDot() {
+            const currentSection = Math.round(
+                container.scrollTop / window.innerHeight
+            );
+            const dots = dotsContainer.querySelectorAll(".dots__item");
+            dots.forEach((dot, index) => {
+                dot.classList.toggle(
+                    "dots__item--active",
+                    index === currentSection
+                );
+            });
+        }
 
-container.addEventListener("scroll", highlightActiveDot);
+        container.addEventListener("scroll", highlightActiveDot);
 
-</script>
+    </script>
 
     <script type='text/javascript' src='./scripts/wp-embed.min.js' id='wp-embed-js'></script>
 </body>
