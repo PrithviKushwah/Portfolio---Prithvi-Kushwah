@@ -5467,6 +5467,14 @@ header#header.active .headerContents .companyBlock a {
   -webkit-animation: fontUP 2s 2.2s forwards;
   animation: fontUP 2s 2.2s forwards;
 }
+#toppage section#kv .ttlContents .ttlHeader h2 span:nth-child(7) {
+  -webkit-animation: fontUP 2s 2.4s forwards;
+  animation: fontUP 2s 2.4s forwards;
+}
+#toppage section#kv .ttlContents .ttlHeader h2 span:nth-child(8) {
+  -webkit-animation: fontUP 2s 2.6s forwards;
+  animation: fontUP 2s 2.6s forwards;
+}
 
 #toppage section#kv .ttlContents .ttlHeader h3 {
   font-size: 24px;
@@ -12111,7 +12119,7 @@ footer .cw {
   }
 
   body#toppage section#kv .ttlContents .ttlHeader h2 {
-    font-size: 23vw;
+    font-size: 17vw;
     line-height: 23vw;
     width: 100%;
   }
@@ -12921,13 +12929,13 @@ footer .cw {
 }
 
 .coder {
-  margin-top: 0;
+  margin-top: -150px;
   /* Default margin */
 }
 
 @media only screen and (min-width: 768px) {
   .coder {
-    margin-top: -240px;
+    margin-top: -250px;
   }
 }
 
