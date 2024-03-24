@@ -494,6 +494,15 @@
                             <div class="back ttlJP"></div>
 
                         </div>
+                        <div class="sp imgHolder btnNone slideUp01">
+                            <div class="card 1">
+                                <div class="card_image" id="imageContainer1"
+                                    style="background-image: url(./assests/nishad_niphade.png);">
+                                    <img id="scrollingImage1" src="./assests/nishad_niphade_full.jpeg"
+                                        onclick="window.open('https://earnest-elf-ffa0e6.netlify.app/', '_blank')" />
+                                </div>
+                            </div>
+                        </div>
 
 
                     </div>
@@ -624,7 +633,6 @@
             <div class="shadow"></div>
         </div>
 
-
         <section class="deviceMaxWidth" id="prologue">
             <div class="Holder cage flexC contentsAnim" style="padding: 20px;">
 
@@ -643,7 +651,18 @@
                             <h4 class="ttlJP" style="color: chocolate; font-size: medium;">HTML | CSS | JAVASCRIPT</h4>
                             <div class="back ttlJP"></div>
                         </div>
+                        <div class="sp imgHolder btnNone slideUp01">
+                            <div class="card 1">
+                                <div id="imageContainer1" class="card_image"
+                                    style="background-image: url(./assests/rubicon.png);">
+                                    <img id="scrollingImage1" src="./assests/rubicon_full.jpeg"
+                                        onclick="window.open('https://dev.rubicontutors.com/html/#', '_blank')" />
+                                    <img id="rubicon_hover_image" style="opacity: 0;" src="./assests/rubicon.png"
+                                        alt="">
 
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
@@ -652,7 +671,7 @@
                         <div id="imageContainer1" class="card_image"
                             style="background-image: url(./assests/rubicon.png);">
                             <img id="scrollingImage1" src="./assests/rubicon_full.jpeg"
-                                onclick="window.open('https://dev.rubicontutors.com/html/#', '_blank')" />
+                                onclick="window.open('https://dev.rubicontutors.com/html/#', '_blank')" style="opacity: 1;" />
                             <img id="rubicon_hover_image" style="opacity: 0;" src="./assests/rubicon.png" alt="">
 
                         </div>
@@ -662,15 +681,18 @@
                 </div>
             </div>
         </section>
+
+
+
         <script>
             document.addEventListener("DOMContentLoaded", function () {
-                var scrollingImage = document.getElementById("scrollingImage1");
+                var scrollingImage2 = document.getElementById("scrollingImage1");
                 var imageContainer = document.getElementById("imageContainer1");
 
-                scrollingImage.addEventListener("animationiteration", function () {
+                scrollingImage2.addEventListener("animationiteration", function () {
                     // Check if the scrolling image has reached the bottom
-                    if (2 * scrollingImage.getBoundingClientRect().bottom <= imageContainer.getBoundingClientRect().bottom) {
-                        scrollingImage.style.animationDirection = "normal";
+                    if (2 * scrollingImage2.getBoundingClientRect().bottom <= imageContainer.getBoundingClientRect().bottom) {
+                        scrollingImage2.style.animationDirection = "normal";
                     }
                 });
 
@@ -686,6 +708,7 @@
 
                     scrollingImage1.style.opacity = "1";
                 });
+
             });
 
         </script>
