@@ -399,9 +399,13 @@
                         </div>
                     </div></a> -->
                     <div class="card 1">
-                        <div class="card_image" id="imageContainer" style="overflow: hidden;background-image: url(./assests/nishad_niphade.png);">
+                        <div class="card_image" id="imageContainer"
+                            style="overflow: hidden;background-image: url(./assests/nishad_niphade.png);">
                             <img id="scrollingImage" src="./assests/nishad_niphade_full.jpeg"
-                                onclick="window.open('https://earnest-elf-ffa0e6.netlify.app/', '_blank')" />
+                                onclick="window.open('https://earnest-elf-ffa0e6.netlify.app/', '_blank')"
+                                style="opacity: 1;" />
+
+                            <img id="nishad_hover_image" style="opacity: 0;" src="./assests/nishad_niphade.png" alt="">
                         </div>
                     </div>
 
@@ -490,20 +494,19 @@
                             <div class="back ttlJP"></div>
 
                         </div>
-                        <div class="sp imgHolder btnNone slideUp01">
-                            <div class="card 1">
-                                <div class="card_image" id="imageContainer" style="background-image: url(./assests/nishad_niphade.png);">
-                                    <img id="scrollingImage" src="./assests/nishad_niphade_full.jpeg"
-                                        onclick="window.open('https://dev.rubicontutors.com/html/#', '_blank')" />
-                                </div>
-                            </div>
-                        </div>
+
 
                     </div>
                 </div>
             </div>
         </section>
         <style>
+            #nishad_hover_image {
+                opacity: 0;
+                transition: opacity 0.3s ease;
+                /* Add transition for smooth opacity change */
+            }
+
             /* Apply styles to the scrolling image container */
             #imageContainer {
                 position: relative;
@@ -544,10 +547,6 @@
             }
 
             /* Show static image on hover */
-            #imageContainer:hover .staticImage {
-                opacity: 1;
-                /* Show the static image when hovering */
-            }
         </style>
         <style>
             /* Apply styles to the scrolling image container */
@@ -590,10 +589,6 @@
             }
 
             /* Show static image on hover */
-            #imageContainer1:hover .staticImage {
-                opacity: 1;
-                /* Show the static image when hovering */
-            }
         </style>
         <script>
             document.addEventListener("DOMContentLoaded", function () {
@@ -602,11 +597,27 @@
 
                 scrollingImage.addEventListener("animationiteration", function () {
                     // Check if the scrolling image has reached the bottom
-                    if (2*scrollingImage.getBoundingClientRect().bottom <= imageContainer.getBoundingClientRect().bottom) {
+                    if (2 * scrollingImage.getBoundingClientRect().bottom <= imageContainer.getBoundingClientRect().bottom) {
                         scrollingImage.style.animationDirection = "normal";
                     }
                 });
             });
+
+
+
+            var scrollingImage = document.getElementById('scrollingImage');
+
+            // Add event listener to the image container
+            scrollingImage.addEventListener('mouseover', function () {
+                console.log("working");
+                scrollingImage.style.opacity = "0";
+            });
+
+            scrollingImage.addEventListener('mouseout', function () {
+
+                scrollingImage.style.opacity = "1";
+            });
+
 
         </script>
         <div class="h-divider" style="margin-top: 60px;">
@@ -632,26 +643,18 @@
                             <h4 class="ttlJP" style="color: chocolate; font-size: medium;">HTML | CSS | JAVASCRIPT</h4>
                             <div class="back ttlJP"></div>
                         </div>
-                        <div class="sp imgHolder btnNone slideUp01">
 
-                            <div class="card 1">
-                                <div class="card_image" id="imageContainer1" style="background-image: url(./assests/rubicon.png);">
-                                    <img id="scrollingImage1" src="./assests/rubicon_full.jpeg"
-                                        onclick="window.open('https://dev.rubicontutors.com/html/#', '_blank')" />
-                                </div>
-                            </div>
-
-
-
-                        </div>
 
                     </div>
                 </div>
                 <div class="pc imgHolder btnNone refraction" data-rellax-speed="1">
                     <div class="card 1">
-                        <div id="imageContainer1" class="card_image" style="background-image: url(./assests/rubicon.png);">
+                        <div id="imageContainer1" class="card_image"
+                            style="background-image: url(./assests/rubicon.png);">
                             <img id="scrollingImage1" src="./assests/rubicon_full.jpeg"
                                 onclick="window.open('https://dev.rubicontutors.com/html/#', '_blank')" />
+                            <img id="rubicon_hover_image" style="opacity: 0;" src="./assests/rubicon.png" alt="">
+
                         </div>
                     </div>
 
@@ -666,9 +669,22 @@
 
                 scrollingImage.addEventListener("animationiteration", function () {
                     // Check if the scrolling image has reached the bottom
-                    if (2*scrollingImage.getBoundingClientRect().bottom <= imageContainer.getBoundingClientRect().bottom) {
+                    if (2 * scrollingImage.getBoundingClientRect().bottom <= imageContainer.getBoundingClientRect().bottom) {
                         scrollingImage.style.animationDirection = "normal";
                     }
+                });
+
+                var scrollingImage1 = document.getElementById('scrollingImage1');
+
+                // Add event listener to the image container
+                scrollingImage1.addEventListener('mouseover', function () {
+                    console.log("working");
+                    scrollingImage1.style.opacity = "0";
+                });
+
+                scrollingImage1.addEventListener('mouseout', function () {
+
+                    scrollingImage1.style.opacity = "1";
                 });
             });
 
